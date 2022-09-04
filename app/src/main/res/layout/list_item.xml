@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/timeSlotLayout"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_margin="@dimen/d_10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/d_10dp"
+        android:padding="@dimen/d_5dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="Afternoon"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/d_1dp"
+        android:background="@color/bg_swipe_item_gray"/>
+
+</LinearLayout>
